@@ -119,6 +119,9 @@ console.log(number);
    confirmPbox.value =""; 
  numberBox.value ="";
   
+ if (errCaptcha.innerHTML !=="Done!") {
+  alert("fill captcha first then try again")
+ }
    
 }
 
