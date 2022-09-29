@@ -1,0 +1,361 @@
+center{
+    text-align: center;
+}
+.formcard{
+    min-height: 60px;
+    position: absolute;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    left: 25%;
+    top: 15%;
+    width: 50% !important;
+    box-shadow: 2px 2px 4px black;
+    background: linear-gradient( red, black);
+    /* border: 1px solid rgb(7, 7, 7); */
+}
+.formcard span p{
+    margin-left: 15px;
+    color: white;
+    font-weight: 800px !important;
+    font-size: 18px;
+    margin-top: 5px;
+ 
+
+}
+.formcard span input{
+    margin-left: 20px;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+.formcard span select{
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+.formcard button{
+    margin-left: 20px;
+    /* width: 600px; */
+    font-weight: bold;
+    margin-top: 0px;
+    min-width: auto;
+    border-radius: 10px;
+}
+
+.error{
+    margin-left: 20px !important;
+    font-size: 15px !important;
+    color: rgb(255, 0, 0) !important;
+}
+
+.captcha{
+    height: 350px;
+    width: 43%;
+    position: absolute;
+    left: 350px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px black;
+    top: 80px;
+    /* border: 1px solid white; */
+   
+}
+.restart{
+    position: absolute;
+    top: 150px;
+}
+.recaptchaBox input{
+    position: absolute;
+    top: 295px;
+    left: 25px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 80% !important;
+}
+::placeholder{
+     border-radius: 2px;
+    color: white;
+}
+#randoms{
+    height: 150px;
+    width: 80%;
+    border-radius: 2px;
+    /* box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.432); */
+    border: 1px solid rgba(20, 3, 3, 0.432);
+    margin: 25px;
+    color: white;
+    font-size: 55px;
+    padding: 20px;
+
+}
+.chng{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: -5px;
+    font-weight: bold;
+    left: 120px;
+
+}
+.chng:hover{
+    text-decoration: none;
+    color: black;
+}
+.confirm{
+    margin-left: 110px !important;
+    margin-top: 10px !important;
+    height: 40px !important;
+}
+.info{
+color: white;
+margin-left: 25px;
+font-size: 16px;
+width: 250px;
+}
+
+
+@media (max-width:1320px) {
+    .formcard{
+        width:54% !important;
+    }
+    .formcard span input{
+        margin-left: 10px;
+        height: 40px;
+        width: 250px;
+    
+    }
+    .captcha{
+        height: 350px;
+        width: 43%;
+        position: absolute;
+        left: 300px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 4px black;
+        top: 80px;
+        /* border: 1px solid white; */
+       
+    }
+}
+
+@media ( max-width:1060px) {
+    .formcard{
+        min-height: 50px;
+        left: 15%;
+        top: 15%;
+        width: 60% !important;
+     
+    }
+    .formcard span input{
+        margin-left: 10px;
+        height: 40px;
+        width: 220px;
+    
+    }
+    .captcha{
+        height: 350px;
+        width: 47%;
+        position: absolute;
+        left: 250px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 4px black;
+        top: 80px;
+        /* border: 1px solid white; */
+       
+    }
+    .chng{
+        left: 90px;
+    }
+    .confirm{
+        margin-left: 80px !important;
+        margin-top: 10px !important;
+        height: 40px !important;
+    }
+    #randoms{
+        font-size: 50px;
+        padding: 13px;
+    }
+}
+
+@media (max-width:816px) {
+    .formcard{
+        min-height: 50px;
+        left: 8%;
+        top: 15%;
+        width: 82% !important;
+     
+    }
+}
+@media (max-width:600px) {
+    .formcard{
+        min-height: 50px;
+        left: 3%;
+        top: 15%;
+        width: 94% !important;
+     
+    }
+    .captcha{
+        height: 300px;
+        width: 42%;
+        left: 250px;
+        top: 80px;
+       
+    }
+ 
+    .recaptchaBox input{
+        top: 265px;
+        left: 25px;
+        font-size: 12px;
+        height: 30px;
+        width: 60% !important;
+    }
+    ::placeholder{
+
+        font-size: 12px;
+    }
+    #randoms{
+        height: 150px;
+        width: 80%;
+        border: 1px solid rgba(20, 3, 3, 0.432);
+        margin: 17px;
+        font-size: 35px;
+    
+    }
+    .chng{
+
+        left: 70px;
+    
+    }
+
+    .confirm{
+        margin-left: 70px !important;
+        margin-top: 10px !important;
+        height: 30px !important;
+        font-size: 12px !important;
+    }
+    .formcard span input{
+        margin-left: 10px;
+        height: 40px;
+        width: 160px;
+        border-radius: 10px;
+    
+    }
+    .formcard span select{
+        margin-left: 10px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .formcard button{
+        margin-left: 10px;
+        /* width: 600px; */
+        font-weight: bold;
+        margin-top: 0px;
+        min-width: auto;
+        border-radius: 10px;
+    
+    }
+}
+
+@media (max-width:491px) {
+    .captcha{
+        height: 300px;
+        width: 42%;
+        left: 210px;
+        top: 80px;
+       
+    }
+    #randoms{
+        font-size: 23px;
+        height: 120px;
+    }
+    .chng{
+        top: -40px;
+        left: 60px;
+        font-weight: 700;
+    }
+    .confirm{
+        margin-left: 50px !important;
+        margin-top: 10px !important;
+        height: 30px !important;
+        font-size: 12px !important;
+    }
+    .recaptchaBox input{
+        top: 245px;
+        left: 25px;
+        font-size: 12px;
+        height: 30px;
+        width: 65% !important;
+    }
+
+    
+}
+@media (max-width:406px) {
+    .formcard span p{
+        margin-left: 5px;
+        color: white;
+        font-weight: 400px !important;
+        font-size: 12px;
+        margin-top: 5px;
+    
+    }
+    .formcard span input{
+        margin-left: 10px;
+        height: 40px;
+        width: 120px;
+        border-radius: 10px;
+    
+    }
+
+   
+    .captcha{
+        height: 300px;
+        width: 45%;
+        left: 150px;
+        top: 50px;
+       
+    }
+ 
+    .recaptchaBox input{
+        top: 265px;
+        left: 25px;
+        font-size: 12px;
+        height: 30px;
+        width: 60% !important;
+    }
+    ::placeholder{
+
+        font-size: 12px;
+    }
+    #randoms{
+        height: 150px;
+        width: 80%;
+        border: 1px solid rgba(20, 3, 3, 0.432);
+        margin: 17px;
+        font-size: 23px;
+    
+    }
+    .chng{
+top: -10px;
+        left: 50px;
+    
+    }
+
+    .confirm{
+        margin-left: 42px !important;
+        margin-top: 10px !important;
+        height: 30px !important;
+        font-size: 12px !important;
+    }   
+}
+@media (max-width:300px) {
+    .formcard{
+        min-height: 50px;
+        left: 1%;
+        top: 15%;
+        width: 98% !important;
+     
+    }
+    
+}

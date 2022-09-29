@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./BOOTSTRAP2.0/bootstrap.css">
+</head>
+<body>
+    <center>
+        <h1>Sign-in Form </h1>
+    </center>
+
+    <div class="formcard">
+
+     <!-- // recaptcha -->
+    <div id="captcha" class="captcha">
+          <div id="randoms"></div>
+        <div class="restart">
+          <a href="#" class="chng" onclick="createCaptcha()">Change</a>
+        </div>
+        <div class="recaptchaBox">
+            <input type="text" id="reCaptcha" placeholder="Type The Captcha" />
+        </div>
+        
+        <div id="errCaptcha" class="errmsg"></div>
+
+        <button class=" btn btn-danger  confirm" onclick="validateCaptcha()">Confirm</button>
+
+    </div>
+    
+            <span>
+                <p>USERNAME*</p>  
+                <input type="text" id="usernameBox" placeholder="input your username">
+                <!-- <p id="displayUS" class="font"></p> -->
+                <p class="error usrnError" hidden>invalid username</p>
+          </span>
+
+            <span>
+                <p>EMAIL ADDRESS*</p>  
+                <input type="text" id="emailBox" placeholder="input your email address">
+                <!-- <p id="displayEA" class="font" style="font-size: 5px;"></p> -->
+                <p class="error emailError" hidden>Invalid Email</p>
+            </span>
+
+            <span>
+                <p>PASSWORD*</p>  
+                <input type="text" id="passwordBox" placeholder="input your password">
+                <!-- <p id="displayP"class="font"></p> -->
+                <p class="error pswrdError" hidden>Invalid Password</p>
+            </span>
+
+            <span>
+                <p> CONFIRM PASSWORD*</p>  
+                <input type="text" id="confirmPbox" placeholder="confirm your password">
+                <!-- <p id="displayCP" class="font"></p> -->
+                <p class="error passcError" hidden>Inaccurate Password</p>
+            </span>
+            
+            <span>
+                <p> PHONE NUMBER*</p>  
+                <select name="" id="selekt">
+                    
+                    <option value="nigeria">Nigeria  (+234)</option>
+                    <option value="ghana">ghana (+233)</option>
+                    <option  value="uS">United States (+1)</option>
+                    <option  value="uK">United Kingdom (+44)</option>
+                </select>
+                <input type="text" id="numberBox" placeholder="input your phone number">
+                <!-- <p id="displayPN" class="font"></p> -->
+                <p class="error numError" hidden>Invalid Number or check country code</p>
+            </span>
+
+            
+         
+    
+    <button class=" btn btn-danger" onclick="validateIt()"> Submit</button>
+   
+ </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
