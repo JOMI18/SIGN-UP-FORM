@@ -69,6 +69,7 @@ center{
     position: absolute;
     top: 295px;
     left: 25px;
+    outline: none;
     height: 40px;
     border-radius: 5px;
     background-color: black;
@@ -256,6 +257,12 @@ width: 250px;
         border-radius: 10px;
     
     }
+    .info{
+        color: white;
+        margin-left: 5px;
+        font-size: 10px;
+        width: 100px;
+        }
 }
 
 @media (max-width:491px) {
@@ -311,8 +318,8 @@ width: 250px;
    
     .captcha{
         height: 300px;
-        width: 45%;
-        left: 150px;
+        width: 52%;
+        left: 140px;
         top: 50px;
        
     }
@@ -337,7 +344,7 @@ width: 250px;
     
     }
     .chng{
-top: -10px;
+        top: -10px;
         left: 50px;
     
     }
@@ -348,14 +355,27 @@ top: -10px;
         height: 30px !important;
         font-size: 12px !important;
     }   
-}
-@media (max-width:300px) {
+}  
+@media (max-width:335px) {
+    .captcha{
+        height: 300px;
+        width: 50%;
+        left: 138px;
+        top: 50px;
+       
+    }
     .formcard{
         min-height: 50px;
-        left: 1%;
+        left: 2%;
         top: 15%;
-        width: 98% !important;
+        width: 97% !important;
      
     }
-    
+    info{
+        color: white;
+        margin-left: 0px !important;
+        font-size: 10px;
+        width: 80px !important;
+        }
+
 }
